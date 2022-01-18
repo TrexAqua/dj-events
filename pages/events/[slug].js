@@ -1,7 +1,12 @@
 import React from "react";
+import Layout from "../../Components/Layout";
 
 const EventPage = () => {
-  return <div>My Event</div>;
+  return (
+    <Layout>
+      <div>My Event</div>
+    </Layout>
+  );
 };
 
 export default EventPage;
